@@ -111,7 +111,7 @@ body{
 }
 .header__middle {
     flex: 1 1 auto;
-    background: url('/img/header_background.jpg') 0 0/ cover no-repeat;
+    background: url('../img/header_background.jpg') 0 0/ cover no-repeat;
 }
 
 .header__right {
@@ -311,7 +311,7 @@ body{
 }
 .gifts__content::before{
     content: "";
-    background: url('/img/image.png') 0 0 / 100% no-repeat;
+    background: url('../img/image.png') 0 0 / 100% no-repeat;
     position: absolute;
     width: 36%;
     padding-top:37%;
