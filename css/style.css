@@ -171,6 +171,11 @@ body{
 .main__item {
     max-width: 226px;
 }
+@media (max-width: 950px){
+    .main__item{
+        margin-bottom: 50px;
+    }
+}
 .main__logo {
     margin-bottom: 41px;
 }
@@ -416,6 +421,16 @@ body{
     }
     .gifts__content::before{
         display: none;
+    }
+    .gifts__body{
+        margin: 0 0 0 5%;
+    }
+    .gifts__price {
+        margin-bottom: 15px;
+    }
+    .gifts__name {
+        margin-bottom: 22px;
+
     }
 }
 .footer {
