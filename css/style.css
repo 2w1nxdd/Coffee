@@ -17,7 +17,7 @@ html,body{
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
-	font-size: 14px;
+	font-size: 16px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -441,4 +441,98 @@ body{
     text-align: center;
     font-weight: 300;
     font-style: italic;
+}
+.combo {
+    padding: 88px 0 128px;
+    position: relative;
+}
+.combo__background {
+    background-color: #415167ee;
+    height: 100%;
+    width: 21%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+.combo__subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+}
+.combo__title {
+    text-align: center;
+    color: #415167;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.875rem;
+    margin-bottom: 72px;
+}
+.combo__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.combo__item {
+    max-width: 360px;
+    background-color: #fff;
+}
+.combo__image {
+    margin-bottom: 42px;
+}
+.combo__image img{
+    width: 100%;
+}
+.combo__body {
+    padding: 0 42px;
+    margin-bottom: 32px;
+}
+.combo__price {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 9px;
+}
+.combo__price_current {
+    color: #C7A17A;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    margin-right: 20px;
+}
+.combo__price_new {
+    color: #415167;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.875rem;
+    text-decoration: line-through;
+    transform: translate(0, -1px);
+}
+.combo__heading {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.combo__text {
+    font-weight: 300;
+}
+.combo__buttons {
+    padding: 0 42px;
+    display: flex;
+    justify-content: space-between;
+}
+.combo__yes {
+    padding: 7px 16px;
+    background-color: #C7A17A;
+    border-radius: 15px;
+    color: #F9FBFF;
+}
+.combo__no {
+    padding: 7px 16px;
+    color: #000;
+}
+@media(max-width: 769px){
+    .combo__buttons {
+        flex-direction: column;
+    }
+    .combo__item{
+        padding: 60px 38px;
+    }
 }
